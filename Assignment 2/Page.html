@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Menu</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="menu-container">
+        <h1>NTaskForce 141</h1>
+        <ul class="menu">
+            <li><a href="#">New Game</a></li>
+            <li><a href="#">Load Game</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Quit</a></li>
+        </ul>
+    </div>
+</body>
+
+<style>
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('COD menu.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-container {
+    text-align: left;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    margin-top: 20px; /* Adjusted margin between buttons */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px 20px; /* Add padding around the buttons */
+    background-color: rgba(255, 255, 255, 0); /* Transparent background */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Slight border for visibility */
+    border-radius: 5px; /* Rounded corners */
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.menu a:hover {
+    color: #f39c12;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight background color on hover */
+    border-color: #f39c12; /* Change border color on hover */
+}
+</style>
+</html>
